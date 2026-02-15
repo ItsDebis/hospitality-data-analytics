@@ -3,7 +3,8 @@
 An end-to-end data analytics project focused on extracting actionable business insights from hospitality industry data using **Python, Pandas, and Matplotlib**.
 
 This project covers the complete workflow:
-Data Loading → Cleaning → Transformation → Exploratory Data Analysis → Insight Generation → Revenue Analysis
+
+**Data Loading → Cleaning → Transformation → Exploratory Data Analysis → Insight Generation → Revenue Analysis**
 
 ---
 
@@ -13,7 +14,7 @@ Data Loading → Cleaning → Transformation → Exploratory Data Analysis → I
 
 ## 1️⃣ Project Setup & Data Loading
 
-![Project Setup](assets/1_Project Setup & Data Loading.png)
+![Project Setup](assets/1_project_setup_data_loading.png)
 
 ### What Was Done:
 - Imported pandas and loaded booking datasets.
@@ -26,7 +27,7 @@ Data Loading → Cleaning → Transformation → Exploratory Data Analysis → I
 
 ## 2️⃣ Understanding Data Structure
 
-![Data Understanding](assets/2_Understanding Data Structure.png)
+![Data Understanding](assets/2_understanding_data_structure.png)
 
 ### What Was Done:
 - Loaded supporting datasets: hotels, rooms, dates, and aggregated bookings.
@@ -40,7 +41,7 @@ Data Loading → Cleaning → Transformation → Exploratory Data Analysis → I
 
 ## 3️⃣ Data Cleaning
 
-![Data Cleaning](assets/3_Data Cleaning.png)
+![Data Cleaning](assets/3_data_cleaning.png)
 
 ### What Was Done:
 - Identified invalid values (e.g., negative number of guests).
@@ -54,14 +55,14 @@ Data Loading → Cleaning → Transformation → Exploratory Data Analysis → I
 
 ## 4️⃣ Data Transformation
 
-![Data Transformation](assets/4_Data Transformation.png)
+![Data Transformation](assets/4_data_transformation.png)
 
 ### What Was Done:
-- Created occupancy percentage column:
-  
-  ```
-  occupancy = successful_bookings / capacity
-  ```
+Created occupancy percentage column:
+
+```
+occupancy = successful_bookings / capacity
+```
 
 ### Business Impact:
 - Enabled measurement of room utilization performance.
@@ -71,7 +72,7 @@ Data Loading → Cleaning → Transformation → Exploratory Data Analysis → I
 
 ## 5️⃣ Exploratory Data Analysis (EDA)
 
-![EDA](assets/5_Exploratory Data Analysis (EDA).png)
+![EDA](assets/5_exploratory_data_analysis.png)
 
 ### What Was Done:
 - Analyzed booking platform distribution.
@@ -85,7 +86,7 @@ Data Loading → Cleaning → Transformation → Exploratory Data Analysis → I
 
 ## 6️⃣ City Distribution of Hotels
 
-![City Distribution](assets/6_City Distribution of Hotels.png)
+![City Distribution](assets/6_city_distribution_hotels.png)
 
 ### Insight:
 - Mumbai has the highest property count.
@@ -96,7 +97,7 @@ Data Loading → Cleaning → Transformation → Exploratory Data Analysis → I
 
 ## 7️⃣ Insight Generation – Occupancy Rate by Room Category
 
-![Occupancy Insight](assets/7_Insight Generation.png)
+![Occupancy Insight](assets/7_insight_generation.png)
 
 ### Key Results:
 
@@ -115,7 +116,7 @@ Data Loading → Cleaning → Transformation → Exploratory Data Analysis → I
 
 ## 8️⃣ Revenue Analysis – Platform Contribution
 
-![Revenue Analysis](assets/8_Revenue Analysis.png)
+![Revenue Analysis](assets/8_revenue_analysis.png)
 
 ### Key Insight:
 - "Others" category contributes the highest revenue (~40%).
@@ -130,7 +131,7 @@ Data Loading → Cleaning → Transformation → Exploratory Data Analysis → I
 
 ## 9️⃣ Booking Volume by Platform
 
-![Booking Volume](assets/9_Booking Volume by Platform (Bar Chart).png)
+![Booking Volume](assets/9_booking_volume_platform.png)
 
 ### Insight:
 - Booking volume distribution aligns closely with revenue contribution.
@@ -150,10 +151,10 @@ Data Loading → Cleaning → Transformation → Exploratory Data Analysis → I
 
 # 🛠 Tech Stack
 
-- Python
-- Pandas
-- Matplotlib
-- Jupyter Notebook
+- Python  
+- Pandas  
+- Matplotlib  
+- Jupyter Notebook  
 
 ---
 
@@ -174,11 +175,12 @@ hospitality-data-analytics/
 # 🚀 Outcome
 
 This project demonstrates:
-- Data Cleaning & Validation
-- Data Transformation
-- Exploratory Data Analysis
-- Business Insight Generation
-- Visualization & Storytelling with Data
+
+- Data Cleaning & Validation  
+- Data Transformation  
+- Exploratory Data Analysis  
+- Business Insight Generation  
+- Visualization & Storytelling with Data  
 
 ---
 
